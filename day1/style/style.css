@@ -1,0 +1,90 @@
+@import url(https://fonts.googleapis.com/css?family=Bree+Serif|Roboto+Condensed);
+
+body {
+  background: #EEE;
+  text-align: center;
+  font-family: 'Roboto Condensed' sans-serif;
+}
+.main-header {
+  background: lightblue;
+  font-family: 'Bree Serif';
+  font-size: 24pt;
+  vertical-align: center;
+  position: fixed;
+  width: 100vw;
+  padding: 10px;
+  top: 0;
+}
+.container {
+  margin-top: 80px;
+  margin-bottom: 40px;
+  width: 1000px;
+  margin-left: auto; margin-right: auto;
+  display: flex;
+}
+.nav-bar {
+  flex: 1;
+}
+.nav-bar a {
+  display: block;
+  width: 100%;
+  background: #DDD;
+  padding: 10px;
+  color: black;
+  text-decoration: none;
+  margin-bottom: 5px;
+}
+.nav-bar a:hover {
+  background: #CCC;
+}
+.nav-bar a:active {
+  background: #BBB;
+}
+.nav-bar .na {
+  color: darkred;
+}
+.content {
+  flex: 3;
+}
+.landing-image {
+  width: 500px;
+}
+.favorite-list, .things-list {
+  list-style-type: none;
+}
+.favorite-list li, .things-list li {
+  display: inline-block;
+  margin: 20px;
+}
+.favorite-list img, .things-list img {
+  height: 100px;
+  float: left;
+  margin-bottom: 5px;
+}
+.map {
+  width: 300px;
+}
+.mail {
+  display: inline-block;
+}
+.mail-icon {
+  width: 25px;
+  vertical-align: middle;
+}
+.footer {
+  background: lightgrey;
+  padding: 2px;
+  position: fixed;
+  width: 100vw;
+  bottom: 0;
+}
+.content a, .footer a {
+  text-decoration: none;
+  color: darkblue;
+}
+.content a:hover, .footer a:hover {
+  color: blue;
+}
+.content a:active, .footer a:hover {
+  color: red;
+}
